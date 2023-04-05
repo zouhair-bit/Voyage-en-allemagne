@@ -1,0 +1,64 @@
+body{
+    background-image: url("/images/background2.svg");
+    background-size: cover;
+}
+
+.contacts{
+    text-align: right;
+    font-size: xx-large;
+}
+.title{
+    font-family: 'Clash Display', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.lowerBody{
+    float: left;
+    padding-left: 2%;
+    color: white;
+}
+.box{
+    padding-bottom: 5%;
+}
+
+.days{
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    overflow-y: visible;
+}
+
+.title_mini{
+    font-family: 'Clash Display', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.text {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    flex: 1;
+    font-size: large;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: auto;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+.images img{
+    padding-bottom: 10px;
+    height: 200px;
+}
